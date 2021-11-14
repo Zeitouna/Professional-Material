@@ -1,0 +1,64 @@
+html {
+    font-family: 'Montserrat', Arial, sans-serif;
+    -ms-text-size-adjust: 100%;
+    
+}
+
+a {
+    color: rgb(36, 36, 36);
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    max-width: 10%;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease 0s;
+    margin-right: auto;
+    padding-left: 10px;
+    transform: scale(1.5);
+}
+
+body {
+    background: #1b7465b2;
+  }
+
+.container {
+    position: relative;
+    justify-content: center;
+}
+
+.project1 {
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 42%;
+    transform: scale(0.7);
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.project2 {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 40%;
+    transform: scale(0.7);
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.description {
+position: absolute;
+visibility: hidden;
+margin-top: 15px;
+color: rgb(58, 66, 110);
+transform:scale(0.9)
+}
+
+.project1:hover #fade {
+    visibility: visible;
+}
+
+.project2:hover #fade {
+    visibility: visible;
+}
