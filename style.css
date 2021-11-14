@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin:  0;
     padding: 0;
+    text-decoration: none;
 }
 
 /* Custom Properties */
@@ -131,6 +132,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 1em;
+    
 }
 .nav__list {
     font-family: monospace;
@@ -172,13 +174,15 @@ button:hover {
 }
 
 .logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     max-width: 10%;
     cursor: pointer;
-    background-color: rgb(0, 169, 147);
     border: none;
     border-radius: 30px;
     transition: all 0.3s ease 0s;
     margin-right: auto;
+    padding-left: 10px;
+    transform: scale(1.5);
 }
 
 .logo:hover {
@@ -310,3 +314,4 @@ body footer a{
     align-items: center;
     padding: 1em;
 }
+
