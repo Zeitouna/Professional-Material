@@ -29,7 +29,7 @@ body {
 
 .project1 {
     position: absolute;
-    margin-top: 30%;
+    margin-top: 20%;
     margin-left: 42%;
     transform: scale(0.7);
     cursor: pointer;
@@ -39,7 +39,7 @@ body {
 
 .project2 {
     position: absolute;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 40%;
     transform: scale(0.7);
     cursor: pointer;
@@ -47,18 +47,95 @@ body {
     color: white;
 }
 
+.project3 {
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 43.5%;
+    transform: scale(0.7);
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: white;
+    max-width: 150px;
+}
+
 .description {
 position: absolute;
 visibility: hidden;
 margin-top: 15px;
-color: rgb(58, 66, 110);
+width: 200px;
+color: rgb(255, 255, 255);
 transform:scale(0.9)
 }
 
-.project1:hover #fade {
+.project1:hover #fade1 {
     visibility: visible;
 }
 
-.project2:hover #fade {
+.project2:hover #fade2 {
     visibility: visible;
+}
+
+
+.project3:hover #fade3 {
+    visibility: visible;
+
+}
+
+
+#fade1 {
+    position: absolute;
+    width: 400px;
+    left: -80%;
+    text-align: center;
+}
+
+#fade2 {
+    position: absolute;
+    width: 400px;
+    left: -50%;
+    text-align: center;
+}
+#fade3 {
+    position: absolute;
+    width: 600px;
+    left: -240%;
+    text-align: center;
+}
+
+
+.Password {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translate(70%, 280%);
+}
+
+.boring {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translate(70%, 500%);
+}
+
+
+.coffee{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translate(70%, 710%);
+}
+
+
+
+.github p {
+    margin-top: 25px;
+    text-align: center;
+
+    -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 10s; /* Firefox < 16 */
+        -ms-animation: fadein 10s; /* Internet Explorer */
+         -o-animation: fadein 10s; /* Opera < 12.1 */
+            animation: fadein 10s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

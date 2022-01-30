@@ -1,0 +1,33 @@
+html {
+    font-family: 'Montserrat', Arial, sans-serif;
+    -ms-text-size-adjust: 100%;
+    
+}
+
+
+
+body {
+    background: #34a592b2;
+  }
+
+  /* .container {
+    display: flex;
+    display: grid;
+    display: block;
+    text-align: center;
+    flex: 1 1 65%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 130px;
+  } */
+
+
+.animate1 {
+    position: relative;
+    animation-name: dropdown;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+
